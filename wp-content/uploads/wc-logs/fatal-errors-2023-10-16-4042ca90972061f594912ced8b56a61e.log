@@ -1,0 +1,12 @@
+2023-10-16T03:30:19+00:00 CRITICAL Uncaught Error: Failed opening required 'class-wc-google-analytics-task.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/ourgreat/plantnook.in/wp-content/plugins/woocommerce-google-analytics-integration/includes/class-wc-google-analytics.php:736
+Stack trace:
+#0 /home2/ourgreat/plantnook.in/wp-includes/class-wp-hook.php(310): WC_Google_Analytics->add_wc_setup_task('')
+#1 /home2/ourgreat/plantnook.in/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/ourgreat/plantnook.in/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home2/ourgreat/plantnook.in/wp-settings.php(632): do_action('init')
+#4 /home2/ourgreat/plantnook.in/wp-config.php(97): require_once('/home2/ourgreat...')
+#5 /home2/ourgreat/plantnook.in/wp-load.php(50): require_once('/home2/ourgreat...')
+#6 /home2/ourgreat/plantnook.in/wp-cron.php(46): require_once('/home2/ourgreat...')
+#7 {main}
+  thrown in /home2/ourgreat/plantnook.in/wp-content/plugins/woocommerce-google-analytics-integration/includes/class-wc-google-analytics.php on line 736
+

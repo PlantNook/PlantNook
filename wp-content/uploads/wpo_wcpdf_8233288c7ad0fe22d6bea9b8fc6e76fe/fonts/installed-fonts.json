@@ -1,0 +1,26 @@
+{
+    "open sans": {
+        "normal": "\/home2\/ourgreat\/plantnook.in\/wp-content\/uploads\/wpo_wcpdf_8233288c7ad0fe22d6bea9b8fc6e76fe\/fonts\/OpenSans-Normal",
+        "bold": "\/home2\/ourgreat\/plantnook.in\/wp-content\/uploads\/wpo_wcpdf_8233288c7ad0fe22d6bea9b8fc6e76fe\/fonts\/OpenSans-Bold",
+        "italic": "\/home2\/ourgreat\/plantnook.in\/wp-content\/uploads\/wpo_wcpdf_8233288c7ad0fe22d6bea9b8fc6e76fe\/fonts\/OpenSans-Italic",
+        "bold_italic": "\/home2\/ourgreat\/plantnook.in\/wp-content\/uploads\/wpo_wcpdf_8233288c7ad0fe22d6bea9b8fc6e76fe\/fonts\/OpenSans-BoldItalic"
+    },
+    "segoe": {
+        "normal": "\/home2\/ourgreat\/plantnook.in\/wp-content\/uploads\/wpo_wcpdf_8233288c7ad0fe22d6bea9b8fc6e76fe\/fonts\/Segoe-Normal",
+        "bold": "\/home2\/ourgreat\/plantnook.in\/wp-content\/uploads\/wpo_wcpdf_8233288c7ad0fe22d6bea9b8fc6e76fe\/fonts\/Segoe-Bold",
+        "italic": "\/home2\/ourgreat\/plantnook.in\/wp-content\/uploads\/wpo_wcpdf_8233288c7ad0fe22d6bea9b8fc6e76fe\/fonts\/Segoe-Italic",
+        "bold_italic": "\/home2\/ourgreat\/plantnook.in\/wp-content\/uploads\/wpo_wcpdf_8233288c7ad0fe22d6bea9b8fc6e76fe\/fonts\/Segoe-BoldItalic"
+    },
+    "roboto slab": {
+        "normal": "\/home2\/ourgreat\/plantnook.in\/wp-content\/uploads\/wpo_wcpdf_8233288c7ad0fe22d6bea9b8fc6e76fe\/fonts\/RobotoSlab-Normal",
+        "bold": "\/home2\/ourgreat\/plantnook.in\/wp-content\/uploads\/wpo_wcpdf_8233288c7ad0fe22d6bea9b8fc6e76fe\/fonts\/RobotoSlab-Bold",
+        "italic": "\/home2\/ourgreat\/plantnook.in\/wp-content\/uploads\/wpo_wcpdf_8233288c7ad0fe22d6bea9b8fc6e76fe\/fonts\/RobotoSlab-Italic",
+        "bold_italic": "\/home2\/ourgreat\/plantnook.in\/wp-content\/uploads\/wpo_wcpdf_8233288c7ad0fe22d6bea9b8fc6e76fe\/fonts\/RobotoSlab-BoldItalic"
+    },
+    "currencies": {
+        "normal": "\/home2\/ourgreat\/plantnook.in\/wp-content\/uploads\/wpo_wcpdf_8233288c7ad0fe22d6bea9b8fc6e76fe\/fonts\/currencies",
+        "bold": "\/home2\/ourgreat\/plantnook.in\/wp-content\/uploads\/wpo_wcpdf_8233288c7ad0fe22d6bea9b8fc6e76fe\/fonts\/currencies",
+        "italic": "\/home2\/ourgreat\/plantnook.in\/wp-content\/uploads\/wpo_wcpdf_8233288c7ad0fe22d6bea9b8fc6e76fe\/fonts\/currencies",
+        "bold_italic": "\/home2\/ourgreat\/plantnook.in\/wp-content\/uploads\/wpo_wcpdf_8233288c7ad0fe22d6bea9b8fc6e76fe\/fonts\/currencies"
+    }
+}

@@ -1,0 +1,37 @@
+.elementor-4897 .elementor-element.elementor-element-5eeac72{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-4897 .elementor-element.elementor-element-5eeac72 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-4897 .elementor-element.elementor-element-888210b .ube-heading{max-width:540px;}.elementor-4897 .elementor-element.elementor-element-888210b .ube-heading-title{font-size:63px;line-height:1.2em;}.elementor-4897 .elementor-element.elementor-element-888210b .ube-heading-description{margin-top:60px;}.elementor-4897 .elementor-element.elementor-element-888210b .ube-heading-sub-title{font-size:15px;text-transform:uppercase;line-height:35px;letter-spacing:4px;color:var( --e-global-color-d9a8155 );margin-bottom:30px !important;}.elementor-4897 .elementor-element.elementor-element-888210b .ube-heading-sub-title .stop-a{stop-color:var( --e-global-color-d9a8155 );}.elementor-4897 .elementor-element.elementor-element-888210b .ube-heading-sub-title .stop-b{stop-color:var( --e-global-color-d9a8155 );}.elementor-4897 .elementor-element.elementor-element-888210b > .elementor-widget-container{padding:170px 0px 0px 0px;}.elementor-4897 .elementor-element.elementor-element-fbdc914 .ube-btn{padding:19px 54px 19px 54px;}.elementor-4897 .elementor-element.elementor-element-fbdc914 > .elementor-widget-container{padding:42px 0px 0px 0px;}.elementor-4897 .elementor-element.elementor-element-3805bfa > .elementor-container > .elementor-column > .elementor-widget-wrap{align-content:center;align-items:center;}.elementor-4897 .elementor-element.elementor-element-890bba3 .ube-heading-title{font-size:18px;}.elementor-4897 .elementor-element.elementor-element-890bba3 > .elementor-widget-container{margin:0px 0px -22px 0px;}.elementor-4897 .elementor-element.elementor-element-a90462a{text-align:center;}.elementor-4897 .elementor-element.elementor-element-0987004 .ube-heading-title{font-size:18px;}.elementor-4897 .elementor-element.elementor-element-0987004 > .elementor-widget-container{margin:-12px 0px 0px 0px;}.elementor-4897 .elementor-element.elementor-element-c9f208a:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-4897 .elementor-element.elementor-element-c9f208a > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://www.plantnook.in/wp-content/uploads/2019/05/slider-52.jpg");background-position:center center;background-repeat:no-repeat;background-size:cover;}.elementor-4897 .elementor-element.elementor-element-c9f208a > .elementor-element-populated{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-4897 .elementor-element.elementor-element-c9f208a > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-4897 .elementor-element.elementor-element-d704457 .ube-social-icons li{color:#29292933 !important;}.elementor-4897 .elementor-element.elementor-element-d704457 .ube-social-icons li:hover{color:#333333 !important;}@media(max-width:1024px){.elementor-4897 .elementor-element.elementor-element-5eeac72{padding:90px 0px 90px 0px;}.elementor-4897 .elementor-element.elementor-element-445ba76 > .elementor-element-populated{padding:0px 20px 0px 20px;}.elementor-4897 .elementor-element.elementor-element-888210b > .elementor-widget-container{padding:0px 0px 0px 0px;}}@media(max-width:767px){.elementor-4897 .elementor-element.elementor-element-5eeac72{padding:60px 0px 60px 0px;}.elementor-4897 .elementor-element.elementor-element-888210b .ube-heading-title{font-size:50px;}}@media(min-width:768px){.elementor-4897 .elementor-element.elementor-element-445ba76{width:50%;}.elementor-4897 .elementor-element.elementor-element-c9f208a{width:50%;}}@media(max-width:1024px) and (min-width:768px){.elementor-4897 .elementor-element.elementor-element-445ba76{width:100%;}}/* Start custom CSS for ube-heading, class: .elementor-element-888210b */.elementor-4897 .elementor-element.elementor-element-888210b .ube-heading-sub-title{
+    padding-left: 50px;
+    border-left: 1px solid;
+}
+.elementor-4897 .elementor-element.elementor-element-888210b  .ube-heading-description{
+    max-width: 460px;
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-3805bfa */.elementor-4897 .elementor-element.elementor-element-3805bfa .elementor-column{
+    width: 94px;
+    margin-left: auto;
+    height: 175px;
+}/* End custom CSS */
+/* Start custom CSS for column, class: .elementor-element-445ba76 */@media(min-width:1025px){
+.elementor-4897 .elementor-element.elementor-element-445ba76{
+     max-width: 720px;
+    margin-left: auto;
+    padding-left: 20px
+}
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-5eeac72 */.elementor-4897 .elementor-element.elementor-element-5eeac72{
+   background-size: cover; 
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-116da9a */.elementor-4897 .elementor-element.elementor-element-116da9a {
+    position: absolute;
+    left: 0; 
+    margin-top: -230px;
+}
+.elementor-4897 .elementor-element.elementor-element-116da9a .ube-social-icons{
+ -webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-flow: column;
+    flex-flow: column;
+}
+.elementor-4897 .elementor-element.elementor-element-116da9a .ube-social-icons li{
+    margin-left: 0;
+    margin-top: 20px;
+}/* End custom CSS */
