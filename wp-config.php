@@ -21,13 +21,13 @@ define( 'WP_CACHE', true );
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'ourgreat_plantnook' );
+define( 'DB_NAME', 'plantnook' );
 
 /** Database username */
-define( 'DB_USER', 'ourgreat_plantnook' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'v7AI8;wvv#SA' );
+define( 'DB_PASSWORD', 'PlantNook@432!%#' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
