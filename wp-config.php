@@ -1,6 +1,8 @@
 <?php
 define( 'WP_CACHE', true );
+if ( ! defined( 'FS_METHOD' ) ) define( 'FS_METHOD', 'direct' );
 /**
+ *
  * The base configuration for WordPress
  *
  * The wp-config.php creation script uses this file during the installation.
