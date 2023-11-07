@@ -121,7 +121,7 @@
 					<?php do_action( 'wpo_wcpdf_after_item_meta', $this->get_type(), $item, $this->order  ); ?>
 				</td>
 				
-				<td class="price"><?php echo '<bdi style="text-decoration: line-through;">'.$item['single_price']; ?></td>
+				<td class="price"><?php echo $item['single_price']; ?></td>
 				<td class="quantity"><?php echo $item['quantity']; ?></td>
 				<td class="price"><?php echo $item['order_price']; ?></td>
 			</tr>
