@@ -122,6 +122,7 @@
 				</td>
 				<?php 
 				print_r($item);
+				exit;
 				?>
 				<td class="price"><?php echo '<bdi style="text-decoration: line-through;">'.$item['single_line_total']. '</bdi>'. $item['single_line_total']; ?></td>
 				<td class="quantity"><?php echo $item['quantity']; ?></td>
