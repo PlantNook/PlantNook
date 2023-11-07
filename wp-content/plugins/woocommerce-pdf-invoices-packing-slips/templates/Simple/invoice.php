@@ -120,6 +120,9 @@
 					</dl>
 					<?php do_action( 'wpo_wcpdf_after_item_meta', $this->get_type(), $item, $this->order  ); ?>
 				</td>
+				<?php 
+				print_r($item);
+				?>
 				<td class="price"><?php echo '<bdi style="text-decoration: line-through;">'.$item['single_line_total']. '</bdi>'. $item['single_line_total']; ?></td>
 				<td class="quantity"><?php echo $item['quantity']; ?></td>
 				<td class="price"><?php echo $item['order_price']; ?></td>
