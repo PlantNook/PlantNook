@@ -88,7 +88,6 @@
 	<thead>
 		<tr>
 			<th class="product"><?php _e( 'Product', 'woocommerce-pdf-invoices-packing-slips' ); ?></th>
-			<th class="product"><?php _e( 'Price', 'woocommerce-pdf-invoices-packing-slips' ); ?></th>
 			<th class="quantity"><?php _e( 'Quantity', 'woocommerce-pdf-invoices-packing-slips' ); ?></th>
 		</tr>
 	</thead>
@@ -107,7 +106,6 @@
 					</dl>
 					<?php do_action( 'wpo_wcpdf_after_item_meta', $this->get_type(), $item, $this->order  ); ?>
 				</td>
-				<td class="quantity"><?php print_r($item); ?></td>
 				<td class="quantity"><?php echo $item['quantity']; ?></td>
 			</tr>
 		<?php endforeach; ?>

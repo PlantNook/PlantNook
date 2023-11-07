@@ -100,8 +100,9 @@
 	<thead>
 		<tr>
 			<th class="product"><?php _e( 'Product', 'woocommerce-pdf-invoices-packing-slips' ); ?></th>
-			<th class="quantity"><?php _e( 'Quantity', 'woocommerce-pdf-invoices-packing-slips' ); ?></th>
 			<th class="price"><?php _e( 'Price', 'woocommerce-pdf-invoices-packing-slips' ); ?></th>
+			<th class="quantity"><?php _e( 'Quantity', 'woocommerce-pdf-invoices-packing-slips' ); ?></th>
+			<th class="price"><?php _e( 'Total Price', 'woocommerce-pdf-invoices-packing-slips' ); ?></th>
 		</tr>
 	</thead>
 	<tbody>
@@ -119,6 +120,7 @@
 					</dl>
 					<?php do_action( 'wpo_wcpdf_after_item_meta', $this->get_type(), $item, $this->order  ); ?>
 				</td>
+				<td class="price"><?php echo '<bdi>'.$item['single_line_total']. '</bdi>'. $item['single_line_total']; ?></td>
 				<td class="quantity"><?php echo $item['quantity']; ?></td>
 				<td class="price"><?php echo $item['order_price']; ?></td>
 			</tr>
