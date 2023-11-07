@@ -147,7 +147,7 @@
 					<?php do_action( 'wpo_wcpdf_after_customer_notes', $this->get_type(), $this->order ); ?>
 				</div>				
 			</td>
-			<td class="no-borders" colspan="3">
+			<td class="no-borders" colspan="4">
 				<table class="totals">
 					<tfoot>
 						<?php foreach ( $this->get_woocommerce_totals() as $key => $total ) : ?>
