@@ -102,6 +102,7 @@
 			<th class="product"><?php _e( 'Product', 'woocommerce-pdf-invoices-packing-slips' ); ?></th>
 			<th class="price"><?php _e( 'Price', 'woocommerce-pdf-invoices-packing-slips' ); ?></th>
 			<th class="quantity"><?php _e( 'Quantity', 'woocommerce-pdf-invoices-packing-slips' ); ?></th>
+			<th class="quantity"><?php _e( 'GST', 'woocommerce-pdf-invoices-packing-slips' ); ?></th>
 			<th class="price"><?php _e( 'Total Price', 'woocommerce-pdf-invoices-packing-slips' ); ?></th>
 		</tr>
 	</thead>
@@ -127,7 +128,7 @@
 				
 				<td class="price"><?php echo $item['single_price']; ?></td>
 				<td class="quantity"><?php echo $item['quantity']; ?></td>
-				<td class="quantity"><?php echo $item['tax']; ?></td>
+				<td class="quantity"><?php echo $item['single_line_tax']; ?></td>
 				<td class="price"><?php echo $item['order_price']; ?></td>
 			</tr>
 
