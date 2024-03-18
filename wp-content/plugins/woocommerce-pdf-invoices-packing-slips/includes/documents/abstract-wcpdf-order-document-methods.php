@@ -865,7 +865,7 @@ abstract class Order_Document_Methods extends Order_Document {
 	public function get_woocommerce_totals() {
 		// get totals and remove the semicolon
 		$totals = apply_filters( 'wpo_wcpdf_raw_order_totals', $this->order->get_order_item_totals(), $this->order );
-		
+		print_r($totals);
 		// remove the colon for every label
 		foreach ( $totals as $key => $total ) {
 			$label = $total['label'];
@@ -891,9 +891,9 @@ abstract class Order_Document_Methods extends Order_Document {
 					$tax_string_array = array();
 					if ( 'itemized' == get_option( 'woocommerce_tax_total_display' ) ) {
 						foreach ( $this->order->get_tax_totals() as $code => $tax ) {
-							echo $tax_amount         = $tax->formatted_amount;
+							$tax_amount         = $tax->formatted_amount;
 							$tax_string_array[] = sprintf( '%s %s', $tax_amount, $tax->label );
-							$tax_amount_total = $tax_amount_total + $tax_amount;
+							//$tax_amount_total = $tax_amount_total + $tax_amount;
 						}
 					} else {
 						$tax_string_array[] = sprintf( '%s %s', wc_price( $this->order->get_total_tax(), array( 'currency' => $this->order->get_currency() ) ), WC()->countries->tax_or_vat() );
@@ -902,7 +902,7 @@ abstract class Order_Document_Methods extends Order_Document {
 						$tax_string = ' ' . sprintf( __( '(includes %s)', 'woocommerce' ), implode( ', ', $tax_string_array ) );
 					}
 				}
-				$totals['Tax']['value'] = $tax_amount_total;
+				///$totals['Tax']['value'] = $tax_amount_total;
 				$totals['order_total']['value'] .= $tax_string;
 			}
 
