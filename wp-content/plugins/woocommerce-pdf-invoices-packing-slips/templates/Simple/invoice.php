@@ -152,7 +152,7 @@
 					<tfoot>
 						<?php foreach ( $this->get_woocommerce_totals() as $key => $total ) : ?>
 							<tr class="<?php echo esc_attr( $key ); ?>">
-								<th class="description"> fdsfs<?php echo $total['label']; ?></th>
+								<th class="description"> <?php echo $total['label']; ?></th>
 								<td class="price"><span class="totals-price"><?php echo $total['value']; ?></span></td>
 							</tr>
 						<?php endforeach; ?>

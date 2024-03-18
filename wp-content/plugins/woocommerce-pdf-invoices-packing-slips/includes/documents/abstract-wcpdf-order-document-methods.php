@@ -875,7 +875,8 @@ abstract class Order_Document_Methods extends Order_Document {
 			}		
 			$totals[$key]['label'] = $label;
 		}
-
+		$totals['Tax']['label'] = 'Tax';
+		$tax_amount_total = 0;
 		// Fix order_total for refunded orders
 		// not if this is the actual refund!
 		if ( ! $this->is_refund( $this->order ) && apply_filters( 'wpo_wcpdf_remove_refund_totals', true, $this ) ) {
@@ -892,6 +893,7 @@ abstract class Order_Document_Methods extends Order_Document {
 						foreach ( $this->order->get_tax_totals() as $code => $tax ) {
 							$tax_amount         = $tax->formatted_amount;
 							$tax_string_array[] = sprintf( '%s %s', $tax_amount, $tax->label );
+							$tax_amount_total = $tax_amount_total + $tax_amount;
 						}
 					} else {
 						$tax_string_array[] = sprintf( '%s %s', wc_price( $this->order->get_total_tax(), array( 'currency' => $this->order->get_currency() ) ), WC()->countries->tax_or_vat() );
@@ -900,7 +902,7 @@ abstract class Order_Document_Methods extends Order_Document {
 						$tax_string = ' ' . sprintf( __( '(includes %s)', 'woocommerce' ), implode( ', ', $tax_string_array ) );
 					}
 				}
-
+				$totals['Tax']['value'] = $tax_amount_total;
 				$totals['order_total']['value'] .= $tax_string;
 			}
 
