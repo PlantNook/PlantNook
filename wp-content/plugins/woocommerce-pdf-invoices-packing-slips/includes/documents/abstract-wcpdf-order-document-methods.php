@@ -865,7 +865,7 @@ abstract class Order_Document_Methods extends Order_Document {
 	public function get_woocommerce_totals() {
 		// get totals and remove the semicolon
 		$totals = apply_filters( 'wpo_wcpdf_raw_order_totals', $this->order->get_order_item_totals(), $this->order );
-		print_r($this->order->get_order_item_totals());
+		//print_r($this->order->get_order_item_totals());
 		// remove the colon for every label
 		foreach ( $totals as $key => $total ) {
 			$label = $total['label'];
@@ -875,7 +875,7 @@ abstract class Order_Document_Methods extends Order_Document {
 			}		
 			$totals[$key]['label'] = $label;
 		}
-		$totals['Tax']['label'] = 'Tax';
+		//$totals['Tax']['label'] = 'Tax';
 		$tax_amount_total = 0;
 		// Fix order_total for refunded orders
 		// not if this is the actual refund!
