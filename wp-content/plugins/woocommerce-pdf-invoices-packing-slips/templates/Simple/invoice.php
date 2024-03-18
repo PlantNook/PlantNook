@@ -110,7 +110,7 @@
 		<?php 
 		//print_r($item);
 		foreach ( $this->get_order_items() as $item_id => $item ) : 
-			print_r($item);
+			//print_r($item);
 			?>
 			<tr class="<?php echo apply_filters( 'wpo_wcpdf_item_row_class', 'item-'.$item_id, esc_attr( $this->get_type() ), $this->order, $item_id ); ?>">
 				<td class="product">
@@ -128,7 +128,7 @@
 				
 				<td class="price"><?php echo $item['single_price']; ?></td>
 				<td class="quantity"><?php echo $item['quantity']; ?></td>
-				<td class="quantity"><?php echo $item['single_line_tax']; ?></td>
+				<td class="quantity"><?php echo $item['line_subtotal_tax']; ?></td>
 				<td class="price"><?php echo $item['order_price']; ?></td>
 			</tr>
 
