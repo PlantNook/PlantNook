@@ -128,7 +128,7 @@
 				
 				<td class="price"><?php echo $item['single_price']; ?></td>
 				<td class="quantity"><?php echo $item['quantity']; ?></td>
-				<td class="quantity"><?php echo $item['single_line_tax']; ?></td>
+				<td class="quantity"><?php echo $item['line_tax']; ?></td>
 				<td class="price"><?php echo $item['order_price']; ?></td>
 			</tr>
 
