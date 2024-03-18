@@ -891,7 +891,7 @@ abstract class Order_Document_Methods extends Order_Document {
 					$tax_string_array = array();
 					if ( 'itemized' == get_option( 'woocommerce_tax_total_display' ) ) {
 						foreach ( $this->order->get_tax_totals() as $code => $tax ) {
-							$tax_amount         = $tax->formatted_amount;
+							echo $tax_amount         = $tax->formatted_amount;
 							$tax_string_array[] = sprintf( '%s %s', $tax_amount, $tax->label );
 							$tax_amount_total = $tax_amount_total + $tax_amount;
 						}
