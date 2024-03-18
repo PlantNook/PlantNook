@@ -165,7 +165,7 @@
 
 <div class="bottom-spacer"></div>
 <?php 
-print_r($this->order);
+print_r($this->order->status);
 ?>
 <?php do_action( 'wpo_wcpdf_after_order_details', $this->get_type(), $this->order ); ?>
 
