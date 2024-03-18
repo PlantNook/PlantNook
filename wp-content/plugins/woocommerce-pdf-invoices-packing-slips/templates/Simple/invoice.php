@@ -165,8 +165,17 @@
 
 <div class="bottom-spacer"></div>
 <?php 
-print_r($this->order->status);
+//print_r($this->order->status);
+if($this->order->status == 'pending')
+{
+	 $image = 'unpaid.png';
+}
+else
+{
+	$image = 'paid.png';
+}
 ?>
+<img src="https://www.plantnook.in/wp-content/uploads/<?php echo $image;?>" alt="paid unpaid icon"/>
 <?php do_action( 'wpo_wcpdf_after_order_details', $this->get_type(), $this->order ); ?>
 
 <?php if ( $this->get_footer() ) : ?>
