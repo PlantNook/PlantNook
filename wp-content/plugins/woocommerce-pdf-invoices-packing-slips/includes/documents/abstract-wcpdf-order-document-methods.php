@@ -865,7 +865,7 @@ abstract class Order_Document_Methods extends Order_Document {
 	public function get_woocommerce_totals() {
 		// get totals and remove the semicolon
 		$totals = apply_filters( 'wpo_wcpdf_raw_order_totals', $this->order->get_order_item_totals(), $this->order );
-		print_r($totals);
+		print_r($this->order->get_order_item_totals());
 		// remove the colon for every label
 		foreach ( $totals as $key => $total ) {
 			$label = $total['label'];
