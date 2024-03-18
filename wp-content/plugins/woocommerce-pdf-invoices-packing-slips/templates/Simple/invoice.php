@@ -106,7 +106,9 @@
 		</tr>
 	</thead>
 	<tbody>
-		<?php foreach ( $this->get_order_items() as $item_id => $item ) : ?>
+		<?php 
+		print_r($item);
+		foreach ( $this->get_order_items() as $item_id => $item ) : ?>
 			<tr class="<?php echo apply_filters( 'wpo_wcpdf_item_row_class', 'item-'.$item_id, esc_attr( $this->get_type() ), $this->order, $item_id ); ?>">
 				<td class="product">
 					<?php $description_label = __( 'Description', 'woocommerce-pdf-invoices-packing-slips' ); // registering alternate label translation ?>
